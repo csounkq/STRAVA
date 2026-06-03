@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins', sans-serif;
+    background:#111;
+    color:white;
+}
+
+.navigacija{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 10%;
+    background:#000;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#fc4c02;
+}
+
+.nav{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.nav a:hover{
+	cursor: pointer;
+    color:#fc4c02;
+}
+
+.naslovna{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 10%;
+    gap:50px;
+}
+
+.tekst{
+    flex:1;
+}
+
+.tekst h1{
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+.tekst span{
+    color:#fc4c02;
+}
+
+.tekst p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.tekst button{
+    padding:15px 35px;
+    border:none;
+    background:#fc4c02;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.video{
+    flex:1;
+}
+
+.video iframe{
+    width:100%;
+    border-radius:20px;
+	aspect-ratio: 16/9;
+}
+
+.stat{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    padding:60px 10%;
+}
+
+.stat-poz{
+    background:#1e1e1e;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    width:250px;
+}
+
+.stat-poz h2{
+    color:#fc4c02;
+    font-size:40px;
+}
+
+
+.aktivnosti{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.aktivnosti h2{
+    font-size:45px;
+    margin-bottom:50px;
+}
+
+.raspored{
+    display:flex;
+    gap:30px;
+}
+
+.kartica{
+    background:#1e1e1e;
+    border-radius:20px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.kartica:hover{
+    transform:translateY(-10px);
+	cursor: pointer;
+}
+
+.kartica img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.kartica h3{
+	color:#fc4c02;
+	text-transform: uppercase;
+    margin:20px 0 10px;
+}
+
+.kartica p{
+	font-size:14px;
+    padding:0 20px 20px;
+}
+
+.citat{
+    text-align:center;
+}
+
+.pozadina{
+    background:#1e1e1e;
+    padding:50px;
+    border-radius:20px;
+    margin-top:40px;
+}
+
+
+footer{
+    background:black;
+    text-align:center;
+    padding:40px;
+    margin-top:50px;
+}
+
+footer h3{
+    color:#fc4c02;
+    margin-bottom:10px;
+}
